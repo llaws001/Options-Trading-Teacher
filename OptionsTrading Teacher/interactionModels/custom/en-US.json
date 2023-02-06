@@ -1,0 +1,112 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "options trading teacher",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop",
+            "no"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetOptionsLessonIntent",
+          "slots": [],
+          "samples": [
+            "for a lesson",
+            "give me a lesson",
+            "next",
+            "more",
+            "stock options",
+            "teach me about options",
+            "explain options",
+            "yes",
+            "options",
+            "tell me about options",
+            "what is my lesson",
+            "what is options trading",
+            "explain options trading",
+            "teach me about options trading"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "WhatCanIBuyIntent",
+          "slots": [],
+          "samples": [
+            "buy premium product",
+            "what is available to buy",
+            "what can i purchase",
+            "what can i buy"
+          ]
+        },
+        {
+          "name": "BuyIntent",
+          "slots": [],
+          "samples": [
+            "buy",
+            "purchase examples",
+            "buy options trading examples",
+            "buy examples"
+          ]
+        },
+        {
+          "name": "GetExampleIntent",
+          "slots": [],
+          "samples": [
+            "for a example",
+            "example please",
+            "example",
+            "what is an example",
+            "give me an example",
+            "what are some examples"
+          ]
+        },
+        {
+          "name": "RefundIntent",
+          "slots": [],
+          "samples": [
+            "i would like my money back",
+            "i want a refund",
+            "refund me"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": [
+            "one more time",
+            "say it again",
+            "say that again",
+            "repeat example",
+            "repeat lesson",
+            "repeat that",
+            "repeat"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "19"
+}

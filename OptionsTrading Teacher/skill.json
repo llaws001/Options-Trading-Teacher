@@ -1,0 +1,60 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Learn about options trading basics, strategies, and advanced concepts.",
+          "examplePhrases": [
+            "Alexa open options trading teacher",
+            "Alexa launch options trading teacher",
+            "Alexa, ask options trading teacher for a lesson"
+          ],
+          "keywords": [
+            "options",
+            "trading",
+            "learn",
+            "about",
+            "options",
+            "trading",
+            "options",
+            "trading",
+            "facts"
+          ],
+          "name": "Options Trading Teacher",
+          "description": "Before you start trading options, you really need to spend some time learning about them. \n\nThis skill is one of the only skills on the market that can teach you all about options trading. \n\nAlways remember, learn before you earn!\n\n\n-----------------------------------------\nUseful Phrases\n-----------------------------------------\nSay \"yes\" when asked for a lesson\nIf you\u0027d like to hear another lesson or example,  you can say \"next\".\nSay \"repeat\" to repeat your lesson or example. \nIf you do not say anything after a lesson, a re-prompt will execute after 8 seconds. If you say nothing after the re-prompt executes, the session will close. \n\n-----------------------------------------\nPremium Features\n----------------------------------------\nOver 15 highly detailed options trading examples are available for purchase.  \n\n*We will add additional lessons and examples when we hit at least 5 reviews*\n\n*DISCLAIMER: Options trading can be dangerous if you do not possess the required knowledge. Please be mindful of the loss you can incur while trading options.\n\nOther skills from Liberation Studios:\nDaily Business Quote",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "You can now say \"repeat\" and it will repeat your lesson or example! We also added an additional 15 lessons.",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "- For the basic skill, say \"open options trading teacher\" and say yes, or teach me about options for a lesson. \n- After the expansion is purchased, say \"what is an example\" for a high quality example. \n- Users can ask \"what can I buy\" for a list of in skill products, and they can say \"refund me\" for a refund. \n- Say \"repeat\" after a lesson or example to hear it again. \n- The session STAYS open after the lesson or example are provided. A re-prompt executes after 8 seconds. If a user says no, it will close the session. I have configured it this way so users can ask for multiple lessons or examples in one sitting. The alexa simulator does NOT execute the re-prompt for whatever reason, but an actual device, and the app, does.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:889042941828:function:52ebf621-9d26-438c-80f4-d6e81aaa9035:Release_2"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": true,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "REMOVED"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
